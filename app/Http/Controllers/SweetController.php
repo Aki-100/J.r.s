@@ -23,23 +23,10 @@ class SweetController extends Controller
         return view('home', ['sweets' => $ranking]);
     }
     
-    public function index(Sweet $sweet, Request $request)
-    //Model(Sweet.php,Like.php)からインポートしたSweet,Likeをインスタンス化して$sweet,$likeとして使用
+    public function index(Sweet $sweet)
+    //Model(Sweet.php)からインポートしたSweetをインスタンス化して$sweetとして使用
     {
-        $search = $request->input('search');
-        //$searchにビューのname="search"から受けとった値を代入
-        
-        $sweets = $sweet;
-        
-        if(!empty($search)) {
-            //もし$searchが空でないならば、
-            $sweets->where('name', 'LIKE', "%{$search}%");
-            //nameカラム内において、LIKE検索を用いて、部分一致する文字を含むデータを$rankingに代入
-        }
-        
-        $sweet_search = $sweets->getPaginateByLimit();
-                
-        return view('sweets/index', ['sweets' => $sweet_search]);
+        return view('sweets/index')->with(['sweets'=> $sweet->getPaginateByLimit()]);
         //index.blade.phpを表示
         //bladeファイル内変数を'sweets'と設定、'sweets'の中身にインスタンス化した$sweetを代入
     }

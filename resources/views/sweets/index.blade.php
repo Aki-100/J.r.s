@@ -12,13 +12,6 @@
     </head>
         <body>
             <div class="sweet">
-                {{--検索機能ここから--}}
-                <div>
-                    <form method="GET" action="{{ route('index') }}" class="d-flex">
-                        <input class="form-control me-2" name="search" type="search" placeholder="Name of sweet" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>        
-                </div>
                 {{--投稿画面へのリンク--}}
                 <a href='/sweets/create'>register sweet</a>
                 {{--タイムライン表示ここから--}}
