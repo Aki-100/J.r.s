@@ -16,10 +16,10 @@
 
 本アプリは以下に示すポイントに根差して設計されています。
 
-・お菓子投稿機能
-・お菓子に対するコメント機能
-・いいね機能
-・いいね数に応じたランキング機能
+・お菓子投稿機能<br>
+・お菓子に対するコメント機能 <br>
+・いいね機能 <br>
+・いいね数に応じたランキング機能 <br>
 
 「日本のお菓子で幸せに」をコンセプトとしています。
 
@@ -27,15 +27,15 @@
 
 ## 開発環境
 ### 使用言語：
-PHP
-HTML
-CSS
+PHP <br>
+HTML <br>
+CSS <br>
 
 ### 環境:
-Laravel(ver.9)
-AWS(EC2＋Cloud9)
-MySQL(MariaDB)
-Github
+Laravel(ver.9) <br>
+AWS(EC2＋Cloud9) <br>
+MySQL(MariaDB) <br>
+Github <br>
 
 ### デプロイ：
 Heroku
@@ -53,13 +53,26 @@ Heroku
 <img src="regions_table.png" width="500px">
 
 ## 機能
-
+・CRUD <br>
+・ログイン <br>
+・画像アップロード＆表示（Cloudinary） <br>
+・いいね <br>
+・コメント <br>
 
 ## こだわり
 
 ### いいね数に応じたランキング機能：
+それぞれのお菓子の投稿に対して各ユーザーが「いいね」をすることができ、Home画面には「いいね」が多い順に投稿が表示されます。
+<img src="Home.png" width="500px">
+
+### 地域・都道府県ごとのお菓子表示機能：
+<img src="regions.png" width="500px">
+<img src="prefectures.png" width="500px">
+<img src="Hokkaido.png" width="500px">
 
 ## 利用方法
+
+
 
 ## 今後の計画
 
