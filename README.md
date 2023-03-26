@@ -67,9 +67,9 @@ Heroku
 
 ### 地域・都道府県ごとのお菓子表示機能：
 ヘッダーの「Region」「Prefecture」を選択すると、それぞれ地域名や都道府県名が並んだページにいき、お菓子を探したい地域や都道府県を選択すると、各地域や都道府県に関連するお菓子の一覧が表示される。
-<img src="regions.png" width="500px">
-<img src="prefectures.png" width="500px">
-<img src="Hokkaido.png" width="500px">
+<img src="regions.png" width="500px">　<br>
+<img src="prefectures.png" width="500px">　<br>
+<img src="Hokkaido.png" width="500px">　<br>
 
 ## 利用方法
 ### お菓子を検索したいユーザー：
