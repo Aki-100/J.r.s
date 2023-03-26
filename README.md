@@ -1,7 +1,5 @@
- ![logo](logo.png)
-
 <p align="center">
-
+    <img src="logo.png" width="258px">
 </p>
 
 # Find Japanese regional sweets!
@@ -44,11 +42,18 @@ Heroku
 
 ## データ構成
 ### ER図：
-<img src="ER図.png" width="500px">
+<img src="ER diagram.png" width="500px">
 
 ### 各テーブル詳細:
+<img src="users_table.png" width="500px">
+<img src="sweets_table.png" width="500px">
+<img src="likes_table.png" width="500px">
+<img src="comments_table.png" width="500px">
+<img src="prefectures_table.png" width="500px">
+<img src="regions_table.png" width="500px">
 
 ## 機能
+
 
 ## こだわり
 
