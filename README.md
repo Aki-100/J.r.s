@@ -23,10 +23,9 @@
 ・いいね機能
 ・いいね数に応じたランキング機能
 
-「日本のご当地お菓子で幸せに」をコンセプトとしています。
+「日本のお菓子で幸せに」をコンセプトとしています。
 
-
-アプリへGo！⇒https://find-japanese-sweets.herokuapp.com/
+アプリへGo！⇒ https://find-japanese-sweets.herokuapp.com/
 
 ## 開発環境
 ### 使用言語：
@@ -45,7 +44,7 @@ Heroku
 
 ## データ構成
 ### ER図：
- ![ER図](ER図.png)
+<img src="ER図.png" width="500px">
 
 ### 各テーブル詳細:
 
