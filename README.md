@@ -25,6 +25,10 @@
 
 アプリへGo！⇒ https://find-japanese-sweets.herokuapp.com/
 
+【テストアカウント】
+E-mail：sweets@gmail.com <br>
+Password：1234abcd
+
 ## 開発環境
 ### 使用言語：
 PHP <br>
